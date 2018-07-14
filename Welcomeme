@@ -1,9 +1,18 @@
-int name = Aitza;
-Console.WriteLine("Please Enter Your Name:);
-(name != Aitza)? Console.WriteLine("Welcome Aitza") : Console.WriteLine("Leave Now); 
+ class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Aitza";
+            Console.WriteLine("Please Enter Your Name");
+            ((name != "Aitza") ? Console.WriteLine("Welcome Aitza");:  Console.WriteLine("Leave Now"););
+            
+
+            Console.ReadKey();
 
 
-Console.ReadKey();
 
+        }
+    }
+}
 
 
