@@ -1,0 +1,9 @@
+int name = Aitza;
+Console.WriteLine("Please Enter Your Name:);
+(name != Aitza)? Console.WriteLine("Welcome Aitza") : Console.WriteLine("Leave Now); 
+
+
+Console.ReadKey();
+
+
+
